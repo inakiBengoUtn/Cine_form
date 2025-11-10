@@ -19,3 +19,13 @@ C:\Users\Usuario.DESKTOP-4HI7SGD\Downloads\cine_form\cine_form\cine_form\obj\Deb
 C:\Users\Usuario.DESKTOP-4HI7SGD\Downloads\cine_form\cine_form\cine_form\obj\Debug\cine_form.csproj.CoreCompileInputs.cache
 C:\Users\Usuario.DESKTOP-4HI7SGD\Downloads\cine_form\cine_form\cine_form\obj\Debug\cine_form.exe
 C:\Users\Usuario.DESKTOP-4HI7SGD\Downloads\cine_form\cine_form\cine_form\obj\Debug\cine_form.pdb
+C:\Users\bengo\Desktop\code\Form\Cine_form\cine_form\bin\Debug\cine_form.exe.config
+C:\Users\bengo\Desktop\code\Form\Cine_form\cine_form\bin\Debug\cine_form.exe
+C:\Users\bengo\Desktop\code\Form\Cine_form\cine_form\bin\Debug\cine_form.pdb
+C:\Users\bengo\Desktop\code\Form\Cine_form\cine_form\obj\Debug\cine_form.csproj.AssemblyReference.cache
+C:\Users\bengo\Desktop\code\Form\Cine_form\cine_form\obj\Debug\cine_form.Forms.Inicio.resources
+C:\Users\bengo\Desktop\code\Form\Cine_form\cine_form\obj\Debug\cine_form.Properties.Resources.resources
+C:\Users\bengo\Desktop\code\Form\Cine_form\cine_form\obj\Debug\cine_form.csproj.GenerateResource.cache
+C:\Users\bengo\Desktop\code\Form\Cine_form\cine_form\obj\Debug\cine_form.csproj.CoreCompileInputs.cache
+C:\Users\bengo\Desktop\code\Form\Cine_form\cine_form\obj\Debug\cine_form.exe
+C:\Users\bengo\Desktop\code\Form\Cine_form\cine_form\obj\Debug\cine_form.pdb
