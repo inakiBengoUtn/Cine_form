@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\EjecutarSp.cs" />
+    <Compile Include="Forms\CristianForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CristianForm.Designer.cs">
+      <DependentUpon>CristianForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,11 +65,35 @@
     <Compile Include="Forms\InakiForm.Designer.cs">
       <DependentUpon>InakiForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\MatheoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MatheoForm.Designer.cs">
+      <DependentUpon>MatheoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MauriForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MauriForm.Designer.cs">
+      <DependentUpon>MauriForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Parametro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\CristianForm.resx">
+      <DependentUpon>CristianForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InakiForm.resx">
+      <DependentUpon>InakiForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MatheoForm.resx">
+      <DependentUpon>MatheoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MauriForm.resx">
+      <DependentUpon>MauriForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -61,11 +61,29 @@ namespace cine_form.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=DESKTOP-4HI7SGD\SQLEXPRESS;Initial Catalog=db_cine_tp;Integrated Security=True;Encrypt=False.
+        ///   Busca una cadena traducida similar a Data Source=INAKI\SQLEXPRESS;Initial Catalog=db_cine_tp;Integrated Security=True;Encrypt=False.
         /// </summary>
         internal static string CadenaConexion {
             get {
                 return ResourceManager.GetString("CadenaConexion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Data Source=DESKTOP-AHJR1GS\SQLEXPRESS;Initial Catalog=db_cine_tp;Integrated Security=True;Encrypt=False.
+        /// </summary>
+        internal static string CadenaConexion1 {
+            get {
+                return ResourceManager.GetString("CadenaConexion1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Data Source=localhost;Initial Catalog=db_cine_tp1;Integrated Security=True;Encrypt=False.
+        /// </summary>
+        internal static string CadenaConexionC {
+            get {
+                return ResourceManager.GetString("CadenaConexionC", resourceCulture);
             }
         }
         

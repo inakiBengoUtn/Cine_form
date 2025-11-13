@@ -1,6 +1,6 @@
 ﻿namespace cine_form.Forms
 {
-    partial class InakiForm
+    partial class MatheoForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,44 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InakiForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MatheoForm));
             this.dgv = new System.Windows.Forms.DataGridView();
-            this.lbl = new System.Windows.Forms.Label();
+            this.lblMatheo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
             // 
             // dgv
             // 
             this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.Location = new System.Drawing.Point(26, 158);
+            this.dgv.Location = new System.Drawing.Point(19, 271);
+            this.dgv.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgv.Name = "dgv";
             this.dgv.RowHeadersWidth = 51;
             this.dgv.RowTemplate.Height = 24;
-            this.dgv.Size = new System.Drawing.Size(748, 280);
-            this.dgv.TabIndex = 0;
+            this.dgv.Size = new System.Drawing.Size(705, 313);
+            this.dgv.TabIndex = 1;
             // 
-            // lbl
+            // lblMatheo
             // 
-            this.lbl.AutoSize = true;
-            this.lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl.Location = new System.Drawing.Point(23, 9);
-            this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(46, 18);
-            this.lbl.TabIndex = 1;
-            this.lbl.Text = "label1";
+            this.lblMatheo.AutoSize = true;
+            this.lblMatheo.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblMatheo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMatheo.Location = new System.Drawing.Point(15, 22);
+            this.lblMatheo.Name = "lblMatheo";
+            this.lblMatheo.Size = new System.Drawing.Size(46, 18);
+            this.lblMatheo.TabIndex = 2;
+            this.lblMatheo.Text = "label1";
             // 
-            // InakiForm
+            // MatheoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lbl);
+            this.ClientSize = new System.Drawing.Size(752, 597);
+            this.Controls.Add(this.lblMatheo);
             this.Controls.Add(this.dgv);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "InakiForm";
-            this.Text = "SpInaki";
-            this.Load += new System.EventHandler(this.InakiForm_Load);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "MatheoForm";
+            this.Text = "SpMatheo";
+            this.Load += new System.EventHandler(this.MatheoForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -75,6 +78,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgv;
-        private System.Windows.Forms.Label lbl;
+        private System.Windows.Forms.Label lblMatheo;
     }
 }

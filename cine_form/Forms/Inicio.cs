@@ -20,5 +20,23 @@ namespace cine_form.Forms
         {
 
         }
+
+        private void matheoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MatheoForm form = new MatheoForm();
+            form.Show();
+        }
+
+        private void mauricioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MauriForm form =  new MauriForm();
+            form.Show();
+        }
+
+        private void cristianToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CristianForm form = new CristianForm();
+            form.Show();
+        }
     }
 }

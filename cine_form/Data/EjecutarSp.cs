@@ -10,7 +10,6 @@ namespace cine_form.Data
 {
     internal class EjecutarSp
     {
-
         public DataTable Ejecutar(string sp)
         {
             DataTable dt = new DataTable();
@@ -49,6 +48,30 @@ namespace cine_form.Data
             }
 
             return ds;
+        }
+        public DataTable ObtenerResultados(int opcion)
+        {
+            string sp = "";
+            switch (opcion)
+            {
+                case 0:
+                    sp = "Cristian";
+                    break;
+                case 1:
+                    sp = "Cristian1";
+                    break;
+                case 2:
+                    sp = "Cristian2";
+                    break;
+                case 3:
+                    sp = "Cristian3";
+                    break;
+                case 4:
+                    sp = "Cristian";
+                    break;
+            }
+
+            return Ejecutar(sp);
         }
     }
 }
